@@ -1,0 +1,783 @@
+*{
+    background-color: rgb(0, 0, 0);
+  
+   
+}
+body{
+    width: 100%;
+    
+    
+}
+li{
+    font-size: 30px;
+    font-family: bold;
+    gap: 40px;
+}
+    
+/*::root{--bg-color:blueviolet;
+    --second-bg-color:#ffffff;
+    --text-color: white;
+    --main-color: #74a2c7;
+}*/
+.container-100{
+    overflow: hidden;
+}
+ 
+.btn{
+    margin-left: 50px;
+    position: relative;
+    left: 600px;
+    top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    text-decoration: underline;
+    
+
+     
+}
+.box2{
+    position: relative;
+    left: 200px;
+    top: 150px;
+    font-size: xx-large;
+} 
+
+.btn:hover{
+    outline-style: solid;
+    outline-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color:blueviolet;
+    text-decoration: underline greenyellow;
+}
+.btn:focus{
+    outline-style: solid;
+    outline-color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+    text-decoration: underline rgb(255, 255, 255);
+}
+.topjagjith{
+    background-color: transparent; 
+    position: relative;
+    left: 200px;
+    top: 30px;
+    font-size: 40px;
+   
+}
+.bp{
+    color: blueviolet;
+} 
+     
+
+.sjagjith{
+    
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-weight: 90px;
+    
+
+}
+.jj{
+
+    color:blueviolet;
+    font-size: 100px;
+     
+}
+
+.onej{
+  
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-weight: 90px;
+    font-size: 40PX;
+   
+}
+.lorem{ 
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: bold;
+}
+.d-flex{
+    background-color: rgb(255, 255, 255);
+}
+.buttons{
+    background-color: transparent;
+    position: relative;
+    bottom: 40px;
+
+}
+ 
+.animated-box{
+        color: greenyellow;
+        text-decoration: underline blueviolet 2px;  
+}
+
+.moon{
+    position: relative;
+    left: 800px;
+    bottom: 360px;
+    height: 300px;
+    width: 300px;
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 150px;
+    overflow: hidden;
+}
+.animate{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.animate--infinite{
+    animation-iteration-count: infinite;
+}
+.animate--delay-1s{
+   animation-delay: 1s;
+}
+.animate--fast{
+    animation-duration: 0.6s;
+}
+.animate--slow{
+    animation-duration: 2s;
+}
+ 
+@keyframes slideInLeft{
+    from{
+        transform: translate(-300px);
+    }
+    to{
+        transform: translate(0);
+    }
+}
+
+ .slideInLeft{
+    animation-name: slideInLeft;
+    animation-timing-function: ease-out;
+ }
+
+ /*@keyframes bounce{
+    0%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translate(0);
+    }
+
+ }*/
+ @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+
+ .bounce{
+    animation-name: bounce;
+    animation-timing-function: ease;
+ }
+ .media{
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 25px;
+     
+ }
+ .sskill{
+    width: 300px;
+    border: solid blueviolet 3px;
+    border-radius: 25px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    padding: 20px;
+ }
+ .s{
+    border-radius: 25px;
+    color: greenyellow;
+    text-align: center;
+    text-decoration: underline  blueviolet;
+    font-weight: bold;
+ }
+
+ .pro{
+    width: 300px;
+    border: solid blueviolet 3px;
+    border-radius: 25px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    padding: 20px;
+ }
+
+ .P{
+    border-radius: 25px;
+    color:  greenyellow;
+    text-align: center;
+    text-decoration: underline  blueviolet;
+    font-weight: bold;
+ }
+
+ .abou{
+    width: 300px;
+    border: solid blueviolet 3px;
+    border-radius: 25px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    padding: 20px;
+ }
+ .A{
+    border-radius: 25px;
+    color:  greenyellow;
+    text-align: center;
+    text-decoration: underline  blueviolet;
+    font-weight: bold;
+ }
+ .shadow{
+    overflow: hidden;
+    width: 1400px;
+    margin-left: 10px; 
+    
+    
+     
+ }
+
+ .d-flex{
+    position: relative;
+    left: 220px;
+    gap: 40px;
+    background-color: transparent;
+     
+ }
+
+ /*.con{
+    width: 300px;
+    border: solid blueviolet 3px;
+    border-radius: 25px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    padding: 20px;
+    align-items: center;
+ }*/
+
+.abou{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+  transition: box-shadow 0.3s ease; 
+}
+.abou:hover{
+    box-shadow: 0 0 30px blueviolet;
+}
+.sskill{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    transition: box-shadow 0.3s ease; 
+}
+.sskill:hover{
+    box-shadow: 0 0 30px blueviolet;
+}
+ 
+.pro{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    transition: box-shadow 0.3s ease; 
+    gap: 60px;
+}
+.pro:hover{
+    box-shadow: 0 0 30px blueviolet;
+}
+
+#o{
+    display: inline-block;
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    animation: bounce 1s;
+    
+    
+
+}
+
+#r{
+    display: inline-block;
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    animation: bounce 2s;
+
+}
+
+#t{
+    display: inline-block;
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    animation: bounce 3s;
+
+}
+
+#f{
+    display: inline-block;
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    animation: bounce 4s;
+
+}
+
+#o2{
+    display: inline-block;
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    animation: bounce 5s;
+
+}
+
+#l{
+    display: inline-block;
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    animation: bounce 6s;
+
+}
+
+#i{
+    display: inline-block;
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    animation: bounce 7s;
+
+}
+
+#o3{
+    display: inline-block;
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    animation: bounce 8s;
+
+}
+.HE{
+  color: greenyellow;
+  font-size: 50px;
+}
+h5{
+    color: blueviolet;
+} 
+ 
+.last{
+    border: solid 3px blueviolet;
+     border-radius: 25px;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    left: 500px;
+     
+   
+}
+.last:hover{
+    box-shadow: 0 0 30px blueviolet;
+}
+.from{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items:start;
+    justify-content: center;
+    width: 100%;
+    margin-left: 300px;
+    position: relative;
+    top: 20px;
+    border-radius: 25px;
+}
+.c{
+    font-weight: bold;
+    margin-left: 500px;
+    font-size: 50px;
+    color: greenyellow;
+    position: relative;
+    top: 20px;
+    right: 350px;
+    background-color: transparent;
+    width: 100px;
+    border-radius: 25px;
+}
+input{
+    width: 300px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    height: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    color: blueviolet;
+    background-color: black;
+    text-decoration: underline greenyellow;
+}
+input:focus{
+    background-color: aliceblue;
+    color: black;
+    text-decoration: underline rgb(99, 98, 98);
+}
+.btn-s{
+    height: 30px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 15px;
+    color: blueviolet;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 10px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.btn-s:hover{
+    color: rgb(0, 0, 0);
+  background: blueviolet;
+}
+  
+ .from{
+    border-radius: 25px;
+    position: relative;
+    right: 200px;
+    bottom: 60px;
+    width: 300px;
+ }
+ .box{
+    border-radius: 25px;
+ }
+.gitf{
+    font-size: 30px;
+    text-decoration: underline blueviolet;
+     
+}
+ 
+/* ------first media------------------*/
+@media screen and (max-width: 1409px) {
+    .shadow{
+      font-size: small;
+      width: 1300px;
+    }
+    .btn{
+        font-size: large;
+         padding-right: 5px;
+         padding-left: 5px;
+         position: relative;
+         left: 450;
+
+    }
+  }
+  /* ------second media------------------*/
+  @media screen and (max-width: 1307px) {
+    .shadow{
+      font-size: small;
+      width: 1200px;
+    }
+    .btn{
+        font-size: medium;
+         gap: 2px;
+         position: relative;
+         left: 500;
+
+    }
+    .moon{
+        position: relative;
+        left: 750px;
+    }
+    .d-flex{
+        gap: 20px;
+    }
+    .last{
+        padding: relative;
+        left: 450px;
+    }
+  }
+  /* ------third media------------------*/
+  @media screen and (max-width: 1256px) {
+    .shadow{
+      font-size: small;
+      width: 1200px;
+    }
+    .btn{
+        font-size: medium;
+         gap: 2px;
+         position: relative;
+         left: 500;
+
+    }
+    .moon{
+        position: relative;
+        left: 700px;
+    }
+    .d-flex{
+        gap: 20px;
+        position: relative;
+        left: 150px;
+    }
+    .box2{
+        position: relative;
+        left: 150px;
+        top: 150px;
+        font-size: medium;
+    }
+    .last{
+        padding: relative;
+        left: 400px;
+        }
+  }
+  /* ------fourth media------------------*/
+  @media screen and (max-width: 1149px) {
+    .shadow{
+      font-size: small;
+      width: 1200px;
+    }
+    .btn{
+        font-size: medium;
+         gap: 2px;
+         position: relative;
+         left: 500;
+
+    }
+    .moon{
+        position: relative;
+        left: 650px;
+    }
+    .d-flex{
+        gap: 10px;
+        position: relative;
+        left: 50px;
+        
+    }
+    .box2{
+        position: relative;
+        left: 50px;
+        top: 150px;
+        font-size: large;
+    }
+    .last{
+    padding: relative;
+    left: 250px;
+    }
+  }
+   
+  /* ------fivth media------------------*/
+  @media screen and (max-width: 999px) {
+    .shadow{
+      font-size: small;
+      width: 1200px;
+    }
+    .btn{
+        font-size: medium;
+         gap: 2px;
+         position: relative;
+         left: 500;
+
+    }
+    .moon{
+        position: relative;
+        left: 650px;
+    }
+    .d-flex{
+        gap: 10px;
+        position: relative;
+        left: 20px;
+        
+    }
+    .box2{
+        position: relative;
+        left: 20px;
+        top: 150px;
+        font-size: xx-small;
+    }
+    .last{
+    padding: relative;
+    left: 250px;
+    }
+  }
+   /* ------sixth media------------------*/
+   @media screen and (max-width: 971px) {
+    .shadow{
+      font-size: small;
+      width: 1200px;
+    }
+    .btn{
+        font-size: medium;
+         gap: 2px;
+         position: relative;
+         left: 500;
+
+    }
+    .moon{
+        position: relative;
+        left: 600px;
+    }
+    .d-flex{
+        gap: 10px;
+        position: relative;
+        left: 20px;
+        
+    }
+    .box2{
+        position: relative;
+        left: 20px;
+        top: 150px;
+        font-size: small;
+    }
+    .lorem{
+        font-size: medium;
+        gap: 20px;
+    }
+    .jj{
+        font-size: 50px;
+    }
+    .HE{
+        font-size: 25px;
+    }
+    .last{
+    padding: relative;
+    left: 250px;
+    }
+    h5{
+    font-size: 19px;
+    }
+   .media{
+    height: 50px;
+    width: 50px;
+    gap: 30px;
+   } 
+  } 
+
+  /*-----------------------------------------stop----------------------------------------*/
+  
+  @media screen and (max-width: 768px) {
+    .shadow{
+      font-size: small;
+      width: 1200px;
+    }
+    .btn{
+        font-size: medium;
+         gap: 2px;
+         position: relative;
+         left: 500;
+
+    }
+    .moon{
+        position: relative;
+        left: 410px;
+    }
+    
+    .box2{
+        position: relative;
+        left: 20px;
+        top: 150px;
+        
+    }
+    .lorem{
+        font-size: 10px;
+        gap: 20px;
+    }
+    .jj{
+        font-size: 80px;
+    }
+    .HE{
+        font-size: 30px;
+    }
+    .last{
+    position: relative; 
+    left: 130px;
+    }
+    h5{
+    font-size: 20px;
+    }
+   .media{
+    height: 100px;
+    width: 100px;
+    gap: 70px;
+   } 
+    .d-flex{
+         gap: 5px;
+         width:720px; 
+         
+    }
+    .scod{
+     margin-top: 20px;   
+    font-size: 20px; 
+    
+     
+ }
+ .abou{
+    font-size: 15px;
+    
+ }
+ .gitf{
+    font-size: 20px;
+ }
+
+  } 
+
+  /*------------------------------------------stop 2 ----------------------------*/
+  @media screen and (max-width: 576px) {
+    .shadow{
+      font-size: small;
+      width: 1200px;
+    }
+    .btn{
+        font-size: medium;
+         gap: 2px;
+         position: relative;
+         left: 500;
+
+    }
+    .moon{
+        position: relative;
+        left: 410px;
+    }
+    
+    .box2{
+        position: relative;
+        left: 20px;
+        top: 150px;
+        
+    }
+    .lorem{
+        font-size: 10px;
+        gap: 20px;
+    }
+    .jj{
+        font-size: 80px;
+    }
+    .HE{
+        font-size: 30px;
+    }
+    .last{
+    position: relative; 
+    left: 130px;
+    }
+    h5{
+    font-size: 20px;
+    }
+   .media{
+    height: 100px;
+    width: 100px;
+    gap: 70px;
+   } 
+    .d-flex{
+         gap: 5px;
+         width:720px; 
+         
+    }
+    .scod{
+     margin-top: 20px;   
+    font-size: 20px; 
+    
+     
+ }
+ .abou{
+    font-size: 15px;
+    
+ }
+ .gitf{
+    font-size: 20px;
+ }
+
+  } 
+
+ 
